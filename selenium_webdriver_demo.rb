@@ -28,7 +28,7 @@ puts ''
 
 # seek the results and within the element containing lat long
 results = driver.find_element(:id, 'b_results')
-lat_long = results.find_element(:class, 'b_focusTextMedium')
+@lat_long = results.find_element(:class, 'b_focusTextMedium')
 
 # puts results.inspect
 puts "Here is everything on the return page: "
@@ -37,7 +37,7 @@ puts results.text
 # puts lat_long.inspect
 puts ''
 puts 'Here is what you really want to compare:'
-puts lat_long.text
+puts @lat_long.text
 
 
 # comment out the quit to see the browser after run
