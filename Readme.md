@@ -11,6 +11,8 @@
 > gem install selenium-webdriver
 > gem install chromedriver-helper
 > ```
+> adding details for operability in 2022 version of dg/maxar websites
+> April 12, 2022
 
 
 
